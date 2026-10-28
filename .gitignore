@@ -1,0 +1,8 @@
+/target/
+/.idea/
+*.iml
+/config.properties
+/.env
+*.log
+*.bak
+.DS_Store

@@ -1,0 +1,48 @@
+.root { -fx-font-family: "Segoe UI", "Arial", sans-serif; -fx-font-size: 13px; -fx-background-color: #f2f6fa; }
+.label { -fx-text-fill: #19304a; }
+.login-root { -fx-background-color: #ffffff; }
+.login-brand { -fx-background-color: linear-gradient(to bottom right,#061e3b,#123f69,#0c6b8e); -fx-padding: 48px 42px; }
+.login-brand .label { -fx-text-fill: white; }
+.brand-big { -fx-font-size: 48px; -fx-font-weight: 900; -fx-letter-spacing: 2px; }
+.brand-caption { -fx-text-fill: #b9dce8 !important; -fx-font-size: 14px; -fx-font-weight: bold; }
+.brand-foot { -fx-text-fill: #c6ddeb !important; -fx-font-size: 12px; }
+.overline { -fx-text-fill: #a0d9eb !important; -fx-font-size: 12px; -fx-font-weight: bold; }
+.route-highlight { -fx-background-color: rgba(255,255,255,0.11); -fx-background-radius: 9px; -fx-padding: 12px 14px; -fx-font-size: 17px; -fx-font-weight: bold; }
+.login-title { -fx-font-size: 30px; -fx-font-weight: bold; }
+.muted { -fx-text-fill: #697b8e; }
+.error-message { -fx-text-fill: #a11f30; -fx-font-size: 12px; }
+.field-label { -fx-font-weight: bold; }
+.text-field, .password-field, .combo-box, .date-picker { -fx-background-color: white; -fx-border-color: #d6e0ea; -fx-border-radius: 7px; -fx-background-radius: 7px; -fx-padding: 8px 10px; -fx-pref-height: 38px; }
+.text-field:focused, .password-field:focused, .combo-box:focused { -fx-border-color: #1074ad; }
+.primary-button { -fx-background-color: #0877bb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 7px; -fx-padding: 10px 16px; -fx-cursor: hand; }
+.primary-button:hover { -fx-background-color: #085e95; }
+.secondary-button { -fx-background-color: white; -fx-text-fill: #1c537b; -fx-border-color: #cadae8; -fx-background-radius: 7px; -fx-border-radius: 7px; -fx-padding: 9px 14px; -fx-cursor: hand; }
+.secondary-button:hover { -fx-background-color: #eaf4fc; }
+.workspace { -fx-background-color: #f3f7fb; }
+.sidebar { -fx-background-color: #0a2545; -fx-padding: 22px 14px; }
+.sidebar-logo { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: white; }
+.sidebar-tagline { -fx-font-size: 11px; -fx-text-fill: #9ac9e3; -fx-font-weight: bold; }
+.sidebar-user { -fx-text-fill: #bdccdf; -fx-padding: 12px 8px; }
+.menu-label { -fx-text-fill: #7aa4c3; -fx-font-size: 10px; -fx-font-weight: bold; -fx-padding: 16px 9px 5px 9px; }
+.nav-button { -fx-alignment: CENTER_LEFT; -fx-background-color: transparent; -fx-text-fill: #e0eafa; -fx-font-size: 13px; -fx-padding: 11px 13px; -fx-background-radius: 7px; -fx-cursor: hand; }
+.nav-button:hover, .nav-button:focused { -fx-background-color: #183e65; }
+.logout { -fx-background-color: #173b5d; -fx-border-color: #355575; -fx-text-fill: white; }
+.content-pane { -fx-padding: 28px; }
+.page-title { -fx-font-size: 27px; -fx-font-weight: bold; }
+.section-title { -fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #335975; }
+.kpi-card { -fx-background-color: white; -fx-background-radius: 12px; -fx-padding: 20px; -fx-border-color: #e4ebf3; -fx-border-radius: 12px; }
+.kpi-number { -fx-font-size: 29px; -fx-font-weight: bold; -fx-text-fill: #0d6098; }
+.form-row { -fx-background-color: white; -fx-padding: 14px; -fx-background-radius: 10px; -fx-border-color: #e2eaf1; -fx-border-radius: 10px; }
+.data-table { -fx-background-color: white; -fx-border-color: #dae5ee; -fx-border-radius: 10px; -fx-background-radius: 10px; }
+.table-view .column-header-background { -fx-background-color: #e8f1f8; }
+.table-view .column-header { -fx-background-color: transparent; -fx-padding: 9px 5px; }
+.table-row-cell { -fx-cell-size: 38px; }
+.table-row-cell:filled:selected { -fx-background-color: #cde7fa; }
+.seat-free, .seat-taken, .seat-choice, .seat-disabled { -fx-min-width: 43px; -fx-min-height: 36px; -fx-alignment: center; -fx-background-radius: 6px; -fx-font-weight: bold; }
+.seat-free, .seat-choice { -fx-background-color: #d5edff; -fx-text-fill: #116396; }
+.seat-taken, .seat-disabled { -fx-background-color: #dae0e6; -fx-text-fill: #737f89; }
+.seat-choice { -fx-cursor: hand; }
+.seat-choice:hover { -fx-background-color: #b5dbfb; }
+.seat-selected { -fx-background-color: #0877bb; -fx-text-fill: white; }
+.scroll-pane { -fx-background-color: transparent; -fx-border-color: transparent; }
+.scroll-pane > .viewport { -fx-background-color: transparent; }
